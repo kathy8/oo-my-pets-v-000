@@ -13,6 +13,7 @@ end
 def self.all
   @@all
 end
+
 def self.reset_all
   self.all.clear
 end
@@ -24,8 +25,9 @@ end
 def say_species
   "I am a human."
 end
+
 def buy_fish(name)
-  @pets[:fishe] << Fish.new(name)
+  @pets[:fishes] << Fish.new(name)
 end
 
 def buy_cat(name)
