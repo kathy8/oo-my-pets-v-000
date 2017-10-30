@@ -14,7 +14,7 @@ def self.all
 end
 def self.reset_all
   self.all.clear
-end 
+end
 
 def self.count
   self.all.size
@@ -59,4 +59,3 @@ def play_with_cats
       "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dogs, and #{pets[:cats].size}cats."
     end
     end
-  
